@@ -1,0 +1,20 @@
+body {
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue; /* Add light blue background color */
+    border: 5px solid #000; /* Add border to the page */
+    border-radius: 10px; /* Make the page with rounded rectangle edges */
+  }
+  
+  .repo-stats {
+    border: 5px solid #7c11ce; /* Add border to each repository block */
+    padding: 3px; /* Add padding to the repository block */
+    margin-bottom: 20px;
+    background-color: #eba05e;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Stats",
+    "version": "1.0",
+    "description": "Fetches GitHub repository statistics",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Github Stats"
+    }
+}
+  

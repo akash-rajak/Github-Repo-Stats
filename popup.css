@@ -18,3 +18,49 @@ body {
     text-align: center;
   }
   
+  #repository-info {
+    width: 650px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #331c1c32;
+    border-radius: 10px;
+    background-color: #87CEFA;
+  }
+  
+  #profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align horizontally */
+    flex-direction: column; /* Stack the avatar and username vertically */
+    margin-bottom: 20px;
+    text-align: center; /* Center align text */
+  }
+  
+  #profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #owner-name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  
+  .repo-stats {
+    border: 5px solid #7c11ce;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h3 a {
+    color: #7c11ce;
+    text-decoration: none;
+  }
+  
+  h3 a:hover {
+    text-decoration: underline;
+  }
+  

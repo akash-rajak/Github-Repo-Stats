@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const repoInfo = document.getElementById("repository-info");
   const owner = "akash-rajak";
   const apiUrl = `https://api.github.com/users/${owner}/repos`;
+  // const apiUrl = `https://api.github.com/users/${owner}/repos?access_token=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`;
 
   const fetchOwnerDetails = async () => {
     const response = await fetch(`https://api.github.com/users/${owner}`);
@@ -26,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
       allRepos = allRepos.concat(repos);
       page++;
     }
+
+    // Introduce a delay of 1 second between requests
+    await new Promise(resolve => setTimeout(resolve, 1000));
 
     return allRepos;
   };

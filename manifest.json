@@ -1,11 +1,21 @@
 {
+
     "manifest_version": 3,
-    "name": "GitHub Stats",
-    "version": "1.0",
-    "description": "Fetches GitHub repository statistics",
+
+    "name": "GitHub Repo Stats",
+
+    "version": "0.0.1",
+
+    "description": "A chrome extension using HTML, CSS and JavaScript to fetch the Github Repo Stats.",
+
     "action":{
         "default_popup": "index.html",
-        "default_title": "Github Stats"
+        "default_title": "Github Repo Stats"
+    },
+
+    "icons": {
+        "48": "Images/icon.png"
     }
+
 }
   

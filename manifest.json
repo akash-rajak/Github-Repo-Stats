@@ -4,7 +4,7 @@
 
     "name": "GitHub Repo Stats",
 
-    "version": "0.0.1",
+    "version": "0.0.2",
 
     "description": "A chrome extension using HTML, CSS and JavaScript to fetch the Github Repo Stats.",
 

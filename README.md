@@ -27,6 +27,10 @@
 	<img src = "https://img.shields.io/github/last-commit/akash-rajak/Github-Repo-Stats", alt = "GitHub last commit">
 	<img src = "https://img.shields.io/github/discussions/akash-rajak/Github-Repo-Stats", alt = "GitHub Discussions">
 </p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/manifest-json/v/akash-rajak/Github-Repo-Stats", alt = "GitHub manifest version">
+	<img src = "https://img.shields.io/github/manifest-json/permissions/akash-rajak/Github-Repo-Stats", alt = "GitHub manifest.json dynamic">
+</p>
 <!-- The Id should be of chrome webstore (After publishing it on Chrome Webstore) - do it later
 <p align = "center">
 	<img alt="Chrome Web Store Price" src="https://img.shields.io/chrome-web-store/price/halpbhjhmnkhoceccobkkfmdggmdpkcc">

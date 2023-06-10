@@ -27,6 +27,16 @@
 	<img src = "https://img.shields.io/github/last-commit/akash-rajak/Github-Repo-Stats", alt = "GitHub last commit">
 	<img src = "https://img.shields.io/github/discussions/akash-rajak/Github-Repo-Stats", alt = "GitHub Discussions">
 </p>
+<!-- The Id should be of chrome webstore (After publishing it on Chrome Webstore) - do it later
+<p align = "center">
+	<img alt="Chrome Web Store Price" src="https://img.shields.io/chrome-web-store/price/halpbhjhmnkhoceccobkkfmdggmdpkcc">
+	<img alt="Chrome Web Store Rating" src="https://img.shields.io/chrome-web-store/rating/halpbhjhmnkhoceccobkkfmdggmdpkcc">
+	<img alt="Chrome Web Store Rating Count" src="https://img.shields.io/chrome-web-store/rating-count/halpbhjhmnkhoceccobkkfmdggmdpkcc">
+	<img alt="Chrome Web Store Stars" src="https://img.shields.io/chrome-web-store/stars/halpbhjhmnkhoceccobkkfmdggmdpkcc">
+	<img alt="Chrome Web Store Users" src="https://img.shields.io/chrome-web-store/users/halpbhjhmnkhoceccobkkfmdggmdpkcc">
+	<img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/halpbhjhmnkhoceccobkkfmdggmdpkcc">
+</p>
+-->
 <p align = "center">
 	<img src = "https://img.shields.io/github/license/akash-rajak/Github-Repo-Stats", alt = "Github">
 </p>

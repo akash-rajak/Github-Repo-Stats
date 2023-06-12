@@ -64,17 +64,31 @@ start index.html
 
 ### 📌Screenshots:
 
-![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/40f14434-da6e-4bcd-9f91-3373da6391f3)
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/cb6913e5-1ba9-4f78-99cb-ef98cdaddbe2)
 
-![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/db387d63-6566-4111-830d-c189c29befc3)
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/c0f4d8c0-940d-4ce4-9cd3-16c52d645958)
 
-![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/b3f9e147-bef0-4855-99f6-295eb28484d4)
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/b5ffd4ae-83e7-4187-b41b-3db913a4c478)
 
-![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/3a15e2b2-9eb3-4e62-86f8-61f4eb1bd350)
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/da81fe9f-3873-43fc-ad77-21a2abe4aa4a)
 
-![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/5537f106-21a5-4627-8c8c-9615a67b6418)
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/914313fc-e4d5-41f5-953d-84d591d58641)
 
-![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/be7a60ce-93e0-4cc4-a78f-a9b2204c2909)
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/29c19411-0233-4719-bfb5-29815c4bc87b)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/b48fe504-266e-438c-91bb-d61f8f211f63)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/2887d782-2544-484b-a2d4-efd9e00007c7)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/e0909a71-ad5c-4fec-a097-3135bfb4b797)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/0131124e-2af0-4216-91fd-1a320571b2a1)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/5364bb21-9d63-4b4e-953c-f3f31ce7c546)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/ea9d2449-bac1-4095-a233-f191c2ddb717)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/51a91d6c-f039-41cf-856a-4945ddfab693)
 
 ****
 

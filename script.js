@@ -1,16 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
   const repoInfo = document.getElementById("repository-info");
-  const owner = "akash-rajak";
-  const apiUrl = `https://api.github.com/users/${owner}/repos`;
+  const ownerForm = document.getElementById("owner-form");
+  const ownerInput = document.getElementById("owner-input");
+  const fetchButton = document.querySelector("#owner-form button");
+  // const apiUrl = `https://api.github.com/users/${owner}/repos`;
   // const apiUrl = `https://api.github.com/users/${owner}/repos?access_token=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`;
 
-  const fetchOwnerDetails = async () => {
+  const fetchOwnerDetails = async (owner) => {
     const response = await fetch(`https://api.github.com/users/${owner}`);
     const data = await response.json();
     return data;
   };
 
-  const fetchAllRepositories = async () => {
+  const fetchAllRepositories = async (owner) => {
+    const apiUrl = `https://api.github.com/users/${owner}/repos`;
     let allRepos = [];
     let page = 1;
     let reposPerPage = 500;
@@ -33,9 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     return allRepos;
   };
-
-  Promise.all([fetchOwnerDetails(), fetchAllRepositories()])
-    .then(([ownerData, repos]) => {
+  
+  const displayRepoStats = (ownerData, repos) => {
       const filteredRepos = repos.filter(repo => !repo.fork); // Exclude forked repositories
 
       // Sort repositories by stars in descending order
@@ -54,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
       profilePicture.src = ownerAvatar;
 
       const ownerProfileLink = document.createElement("a");
-      ownerProfileLink.href = `https://github.com/${owner}`;
+      ownerProfileLink.href = `https://github.com/${ownerName}`;
       ownerProfileLink.textContent = ownerName;
       ownerProfileLink.target = "_blank";
 
@@ -75,10 +77,33 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
       });
       repoInfo.innerHTML += stats;
-    })
-    .catch(error => {
-      repoInfo.textContent = "Error fetching repository statistics.";
-      console.error(error);
+    };
+    repoInfo.innerHTML = ''; // clearing the stats info of previous user, otherwise it was getting appended after it only
+    ownerInput.value = ""; // Clear the input field after form submission
+
+    ownerForm.addEventListener("submit", async function(event) {
+      event.preventDefault();
+      const owner = ownerInput.value.trim();
+      if (owner !== "") {
+        // ownerInput.disabled = true;
+        // fetchButton.disabled = true;
+        fetchButton.textContent = "Fetching...";
+        repoInfo.textContent = ""; // Clear existing repository stats
+  
+        try {
+          const [ownerData, repos] = await Promise.all([fetchOwnerDetails(owner), fetchAllRepositories(owner)]);
+          displayRepoStats(ownerData, repos);
+          fetchButton.textContent = "Fetched";
+        } catch (error) {
+          repoInfo.textContent = "Error fetching repository statistics.";
+          console.error(error);
+        } finally {
+          // ownerInput.disabled = false;
+          // fetchButton.disabled = false;
+          ownerInput.value = "";
+          fetchButton.textContent = "Fetch Stats";
+        }
+      }
     });
 });
 

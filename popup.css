@@ -1,66 +1,70 @@
+/* for whole body */
 body {
-    width: 700px;
-    margin: 10px;
-    padding: 10px;
-    background-color: lightblue; /* Add light blue background color */
-    border: 5px solid #000; /* Add border to the page */
-    border-radius: 10px; /* Make the page with rounded rectangle edges */
-  }
-  
-  .repo-stats {
-    border: 5px solid #7c11ce; /* Add border to each repository block */
-    padding: 3px; /* Add padding to the repository block */
-    margin-bottom: 20px;
-    background-color: #eba05e;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  #repository-info {
-    width: 650px;
-    margin: 10px;
-    padding: 10px;
-    border: 5px solid #331c1c32;
-    border-radius: 10px;
-    background-color: #87CEFA;
-  }
-  
-  #profile-info {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center align horizontally */
-    flex-direction: column; /* Stack the avatar and username vertically */
-    margin-bottom: 20px;
-    text-align: center; /* Center align text */
-  }
-  
-  #profile-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  #owner-name {
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  
-  .repo-stats {
-    border: 5px solid #7c11ce;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-  
-  h3 a {
-    color: #7c11ce;
-    text-decoration: none;
-  }
-  
-  h3 a:hover {
-    text-decoration: underline;
-  }
-  
+  width: 700px;
+  height: 550px;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue; /* Add light blue background color */
+  border: 5px solid #000; /* Add border to the page */
+  border-radius: 10px; /* Make the page with rounded rectangle edges */
+  overflow: hidden; /* Hide overflow to prevent scrolling on the entire page */
+}
+
+/* for heading `Github Repo Stats` */
+h1 {
+  text-align: center;
+  margin-top: 1px;
+}
+
+/* for profile photo and picture */
+#profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align horizontally */
+  flex-direction: column; /* Stack the avatar and username vertically */
+  margin-bottom: 20px;
+  text-align: center; /* Center align text */
+}
+
+#profile-picture {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* for owner name with link */
+#owner-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+h3 a {
+  color: #7c11ce;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
+/* for repository info and its stats */
+#repository-info {
+  width: 668px;
+  height: 330px;
+  margin: 2px;
+  padding: 10px;
+  border: 5px solid #331c1c32;
+  border-radius: 10px;
+  background-color: #87CEFA;
+  max-height: calc(100vh - 170px); /* Set the maximum height of stats container with a dynamic value to account for the height of other elements */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.repo-stats {
+  border: 5px solid #7c11ce; /* Add border to each repository block */
+  padding: 10px; /* Add padding to the repository block */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #eba05e;
+}

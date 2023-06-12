@@ -2,6 +2,10 @@
 - A chrome extension using HTML, CSS and JavaScript to fetch the Github Repo Stats.
 
 <p align = "center">
+	<img src = "https://img.shields.io/badge/Chrome Extension-Github Repo Stats-green?style=plastic&logo=appveyor", alt = "GitHub Repo stars">
+	<img src = "https://img.shields.io/badge/Chrome Extension-Developer Tool-green?style=plastic&logo=appveyor", alt = "Developer Tool">
+</p>
+<p align = "center">
 	<img src = "https://img.shields.io/github/stars/akash-rajak/Github-Repo-Stats?style=social", alt = "GitHub Repo stars">
 	<img src = "https://img.shields.io/github/forks/akash-rajak/Github-Repo-Stats?style=social", alt = "GitHub Repo forks">
 	<img src = "https://img.shields.io/github/watchers/akash-rajak/Github-Repo-Stats?style=social", alt = "GitHub Repo watchers">

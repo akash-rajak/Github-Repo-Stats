@@ -15,10 +15,7 @@
 
     "icons": {
         "48": "Images/icon.png"
-    },
-
-    "permissions": [
-        "activeTab"
-    ]
+    }
+    
 }
   

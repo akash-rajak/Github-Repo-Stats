@@ -1,19 +1,38 @@
+/* Importing the new Font  */
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@500&family=Quicksand:wght@300&display=swap");
+
 /* for whole body */
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* body {
   width: 700px;
   height: 550px;
   margin: 10px;
   padding: 10px;
   background-color: lightblue; /* Add light blue background color */
-  border: 5px solid #000; /* Add border to the page */
-  border-radius: 10px; /* Make the page with rounded rectangle edges */
-  overflow: hidden; /* Hide overflow to prevent scrolling on the entire page */
-}
+/* border: 5px solid #000; Add border to the page */
+/* border-radius: 10px; Make the page with rounded rectangle edges */
+/* overflow: hidden; Hide overflow to prevent scrolling on the entire page */
+/* } */
 
 /* for heading `Github Repo Stats` */
 h1 {
   text-align: center;
   margin-top: 1px;
+}
+
+/* Centering the main-container  */
+#stats-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* for taking owner username input and button */
@@ -24,9 +43,10 @@ h1 {
 }
 
 #owner-input {
-  padding: 5px;
+  padding: 0.5rem 1rem;
   margin-right: 10px;
-  border: 1px solid #000;
+  border: none;
+  background-color: #ebebeb;
   border-radius: 5px;
 }
 
@@ -54,10 +74,12 @@ button:hover {
 }
 
 #profile-picture {
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin-bottom: 10px;
+  object-fit: cover;
+  border: 2px solid #333;
 }
 
 /* for owner name with link */
@@ -80,18 +102,21 @@ h3 a:hover {
   width: 668px;
   height: 285px;
   margin: 2px;
-  padding: 10px;
-  border: 5px solid #331c1c32;
+  padding: 1rem;
+  /* border: 5px solid #331c1c32; */
   border-radius: 10px;
-  background-color: #87CEFA;
-  max-height: calc(100vh - 170px); /* Set the maximum height of stats container with a dynamic value to account for the height of other elements */
+  background-color: #ebebeb;
+  max-height: calc(
+    100vh - 170px
+  ); /* Set the maximum height of stats container with a dynamic value to account for the height of other elements */
   overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .repo-stats {
-  border: 5px solid #7c11ce; /* Add border to each repository block */
-  padding: 7px; /* Add padding to the repository block */
+  border: 5px solid #ebebeb; /* Add border to each repository block */
+  padding: 1rem 1.8rem; /* Add padding to the repository block */
   margin-bottom: 10px;
   border-radius: 10px;
-  background-color: #eba05e;
+  background-color: #b4b4b4;
+  /* text-transform: capitalize; */
 }

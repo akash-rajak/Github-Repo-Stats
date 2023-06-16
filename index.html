@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>GitHub Repo Stats</title>
-  <link rel="stylesheet" type="text/css" href="popup.css">
-</head>
-<body>
-  <div id="stats-container">
-    <h1>Github Repo Stats</h1>
-    
-    <form id="owner-form">
-      <input type="text" id="owner-input" placeholder="GitHub username..." required>
-      <button type="submit">Fetch Stats</button>
-    </form>
+  <head>
+    <title>GitHub Repo Stats</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <div id="stats-container">
+      <h1>Github Repo Stats</h1>
 
-    <div id="profile-info">
-      <img id="profile-picture" src="Images/initial-profile.jpg" alt="Profile Picture">
-      <h1 id="owner-name"></h1>
+      <form id="owner-form">
+        <input
+          type="text"
+          id="owner-input"
+          placeholder="GitHub username..."
+          required
+        />
+        <button type="submit">Fetch Stats</button>
+      </form>
+
+      <div id="profile-info">
+        <img
+          id="profile-picture"
+          src="Images/initial-profile.jpg"
+          alt="Profile Picture"
+        />
+        <h1 id="owner-name"></h1>
+      </div>
+
+      <div id="repository-info"></div>
     </div>
-
-    <div id="repository-info">
-
-    </div>
-
-  </div>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

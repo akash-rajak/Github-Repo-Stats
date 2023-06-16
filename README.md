@@ -96,6 +96,8 @@ start index.html
 
 ![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/51a91d6c-f039-41cf-856a-4945ddfab693)
 
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/f367181f-65d0-49af-bfe5-2c7376ae47b5)
+
 ![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/036acf73-a91a-4a1f-b58a-ba313cdc4670)
 
 ![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/bf65f5ee-2018-4325-8044-3c3871311858)

@@ -96,6 +96,14 @@ start index.html
 
 ![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/51a91d6c-f039-41cf-856a-4945ddfab693)
 
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/036acf73-a91a-4a1f-b58a-ba313cdc4670)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/bf65f5ee-2018-4325-8044-3c3871311858)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/f62599a7-1525-4b2b-a40c-bb15eb1302c6)
+
+![image](https://github.com/akash-rajak/Github-Repo-Stats/assets/57003737/f2dedd30-8d81-4257-b7f2-2d4cc498afe4)
+
 ****
 
 ### 📌IMP Points and References:
